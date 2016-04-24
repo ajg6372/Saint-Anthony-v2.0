@@ -45,6 +45,8 @@ h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+.color-black { color: rgba(0,0,0,1); }
+
 p {
     margin-bottom: 20px;
     font-size: 16px;
@@ -54,6 +56,10 @@ p {
 .bg-primary {
     background-color: #f05f40;
     /*background-color: #ff6600;*/
+}
+
+.bg-primary2 {
+  background-color: #b33c00;
 }
 
 .bg-dark {
@@ -179,7 +185,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/home2.jpg);
+    background-image: url(../img/main.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -197,7 +203,7 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 700;
 }
 
@@ -440,7 +446,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn {
     border: 0;
-    border-radius: 300px;
+    /*border-radius: 300px;*/
+    border-radius: 10px;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
@@ -474,4 +481,58 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+
+/*--------------------------------------------------------------*/
+/* Change default buttons                                       */
+/*--------------------------------------------------------------*/
+.btn2 {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn2-default {
+    border: 1px solid #f05f40;
+    color: #f05f40;
+    background-color: transparent;
+}
+
+.btn2-default:hover,
+.btn2-default:focus {
+    border: 1px solid #f05f40;
+    outline: 0;
+    color: #fff;
+    background-color: #f05f40;
+}
+
+.btn2-white {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-weight: normal;
+
+}
+
+
+/*--------------------------------------------------------------*/
+/* ./Change default buttons                                     */
+/*--------------------------------------------------------------*/
+
+
+#section-2 {
+    min-height: 350px;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    width: 100%;
+    background: url(../img/walking-out-of-church.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
