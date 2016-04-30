@@ -15,8 +15,9 @@ body {
 }
 
 hr {
-    max-width: 50px;
-    border-color: #f05f40;
+    max-width: 150px;
+    /*border-color: #f05f40;*/
+    border-color: #be9b7b;
     border-width: 3px;
 }
 
@@ -54,17 +55,29 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    /*background-color: #f05f40;*/
     /*background-color: #ff6600;*/
+    /*background-color: #c3ac9e;*/
+    /*background-color: #7a4e42;*/
+    background-color: #854442;
 }
 
 .bg-primary2 {
-  background-color: #b33c00;
+  /*background-color: #b33c00;*/
+  background-color: #854442;
 }
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    /*background-color: #222;*/
+    background-color: #e9ddd3;
+    background-color: #907d74;
+    background-color: #dfdfde;
+        background-color: #dfdfde;
+          background-color: #dfdfde;
+            background-color: #dfdfde;
+              background-color: #4b3832;
+    color: #fff;
 }
 
 .text-faded {
@@ -72,7 +85,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 aside {
