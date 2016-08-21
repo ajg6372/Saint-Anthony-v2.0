@@ -77,6 +77,9 @@ p {
           background-color: #dfdfde;
             background-color: #dfdfde;
               background-color: #4b3832;
+              background-color:#3C6E71;
+              background-color: #284B63;
+              background-color: #353535;
     color: #fff;
 }
 
@@ -146,6 +149,12 @@ aside {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
     }
+    .navbar-default2 {
+        border-color: rgba(255,255,255,.3);
+        background-color: #fff;
+    }
+
+
 
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
@@ -544,6 +553,18 @@ body {
     height: auto;
     width: 100%;
     background: url(../img/walking-out-of-church.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#aboutus {
+    min-height: 50%;
+    min-width: 100%;
+    width: auto;
+    height: 50%;
+    width: 100%;
+    background: url(../img/junk-smiling-faces.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
