@@ -115,7 +115,7 @@ aside {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans', sans-serif;
-    background-color: #fff;
+    background-color: #000; /*change color of navbar when small*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -137,8 +137,10 @@ aside {
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
     font-size: 13px;
-    font-weight: 700;
-    color: #222;
+    font-weight: 500;
+    color: #f05f40; /*change the color of text on small navbar*/
+    /*border-bottom: solid #fff 2px;*/
+
 }
 
 .navbar-default .nav > li>a:hover,
@@ -189,8 +191,9 @@ aside {
     }
 
     .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
+        border-bottom: rgba(0,0,0,.5) 1px; /* change border on desktop navbar */
         background-color: #fff;
+        /*use above when changing color of navbar on desktop*/
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -217,6 +220,7 @@ aside {
 header {
     position: relative;
     width: 100%;
+    padding-top: 150px;
     min-height: auto;
     text-align: center;
     color: #fff;
