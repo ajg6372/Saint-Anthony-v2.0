@@ -191,9 +191,8 @@ aside {
     }
 
     .navbar-default.affix {
-        border-bottom: rgba(0,0,0,.5) 1px; /* change border on desktop navbar */
-        background-color: #fff;
-        /*use above when changing color of navbar on desktop*/
+        border-bottom: rgba(0,0,0,.5) solid 1px; /* change border on desktop navbar */
+        background-color: #fff;  /*use above when changing color of navbar on desktop*/
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
