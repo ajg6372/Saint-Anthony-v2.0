@@ -125,12 +125,13 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    color: #fff;
+    color: #ddd;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    /*color: #eb3812;*/
+    color: #fff;
 }
 
 .navbar-default .nav > li>a,
@@ -138,14 +139,16 @@ aside {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 500;
-    color: #f05f40; /*change the color of text on small navbar*/
+    /*color: #f05f40; change the color of text on small navbar*/
+    color: #ddd;
     /*border-bottom: solid #fff 2px;*/
 
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    /*color: #f05f40;*/
+    color: #fff;
 }
 
 .navbar-default .nav > li.active>a,
@@ -168,8 +171,6 @@ aside {
         border-color: rgba(255,255,255,.3);
         background-color: #fff;
     }
-
-
 
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
@@ -257,13 +258,14 @@ header .header-content .header-content-inner p {
 }
 
 .aboutus-header {
-    height: 300px;
-    background-image: url(../img/header1.jpg);
+    /*height: 300px;*/
+    background-image: url(../img/welcome.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    color: #fff;
 }
 
 .aboutus-header h1 {
