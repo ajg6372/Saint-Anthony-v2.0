@@ -285,7 +285,7 @@ header .header-content .header-content-inner p {
 
 .events-header {
     height: 300px;
-    background-image: url(../img/events_336X214.jpg);
+    background-image: url(../img/events-header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -300,6 +300,61 @@ header .header-content .header-content-inner p {
     z-index: 999;
 
 }
+
+.sacraments-header {
+    height: 300px;
+    background-image: url(../img/sac-header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+}
+
+.sacraments-header h1 {
+    position:absolute;top: 25%;
+    color: #fff;font-weight: 700px;
+    z-index: 999;
+
+}
+
+.devotions-header {
+    height: 300px;
+    background-image: url(../img/prayers.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+}
+
+.devotions-header h1 {
+    position:absolute;top: 25%;
+    color: #fff;font-weight: 700px;
+    z-index: 999;
+
+}
+
+.uc-header {
+    height: 300px;
+    background-image: url(../img/uc.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+}
+
+.uc-header h1 {
+    position:absolute;top: 25%;
+    color: #fff;font-weight: 700px;
+    z-index: 999;
+
+}
+
 
 @media(min-width:768px) {
     header {
@@ -764,4 +819,57 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
 
 .event p {
     margin-top: 1em;
+}
+
+/*kjalsdjflkjadklsjflka djsf*/
+#devotions h4 {
+        padding: 0 0 15px 0 ;margin: 0;
+}
+
+#devotions h1 { text-align: center }
+#devotions h2 { padding-top: 25px;color: #f05f40}
+
+#devotions ul {
+        list-style-type: none;
+        padding:0;padding-left:0px;
+        margin: 0;
+		/*padding-top: 15px;*/
+        /*font-weight:200;*/
+		/*text-shadow: 0 1px 3px rgba(0,0,0,.4);*/
+}
+#devotions li {
+        padding: 0px;
+}
+#devotions hr{
+		color:tramsparent;
+	  }
+
+#devotions .panel-heading {
+    text-align: center;
+    background-color: #44474e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+#devotions .panel-title2 {
+    text-align: center;
+    margin: 0;padding: 0;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+
+#devotions .panel-footer {
+    text-align: left;
+    background-color: #fff;
+    font-size: 12px;
+    border-top: none;
+
+}
+#devotions .panel-ajg {
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin: 0;
 }
