@@ -67,6 +67,13 @@ p {
     color: #fff;
 }
 
+.bg-black {
+    /*background-color: #8E3941;*/
+    background-color: #000;
+    color: #fefefe;
+}
+
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
@@ -355,6 +362,33 @@ header .header-content .header-content-inner p {
 
 }
 
+#featured {
+  background-color: #dedede;
+}
+
+#featured img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#featured ul {
+  display: block;
+  list-style-type: none;
+  margin-top: 0em;
+  margin-bottom: 0 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0px;
+  color: #fefefe;
+}
+
+#featured .panel-footer {
+  background-color: #000;
+}
+
+#featured .panel-default {
+  background-color: #000;
+}
 
 @media(min-width:768px) {
     header {
