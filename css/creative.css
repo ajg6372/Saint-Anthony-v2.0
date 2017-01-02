@@ -362,6 +362,21 @@ header .header-content .header-content-inner p {
 
 }
 
+#manger {
+  min-height: 300px;
+  min-width: 500px;
+  background-image: url(../img/events/manger.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+
+}
+
+
+
 #featured {
   background-color: #dedede;
 }
