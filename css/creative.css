@@ -394,15 +394,15 @@ header .header-content .header-content-inner p {
   margin-left: 0;
   margin-right: 0;
   padding-left: 0px;
-  color: #fefefe;
+  color: #000;
 }
 
 #featured .panel-footer {
-  background-color: #000;
+  background-color: #fff;
 }
 
 #featured .panel-default {
-  background-color: #000;
+  background-color: #fff;
 }
 
 @media(min-width:768px) {
