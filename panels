@@ -1,0 +1,46 @@
+<!-- Panel -->
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="panel panel-default wow fadeInUp" data-wow-delay=".65s">
+    <div class="panel-body">
+      <img src="img/events/stations.png">
+    </div>
+    <div class="panel-footer">
+      <ul>
+        <li class="h3">Stations of the Cross</li>
+        <p></p><li><i class="fa" aria-hidden="true"> Every Friday during Lent</i></li>
+        <p></p>
+        <li><i class="fa" aria-hidden="true">- 12:00 Noon (English) </i></li>
+        <li><i class="fa">- 7:00PM (English & Spanish) </i></li>
+
+
+      </ul>
+
+    </div>
+  </div>
+</div>
+<!-- end of Panel -->
+
+<!-- Panel -->
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="panel panel-default wow fadeInUp" data-wow-delay=".80s">
+    <div class="panel-body">
+      <img src="img/events/friar.png">
+    </div>
+    <div class="panel-footer">
+      <ul>
+        <li class="h3">St. Anthony's Parish Mission with The Franciscan Friars of the Renewal</li>
+        <p></p><li><i class="h4" aria-hidden="true"> March 12 to March 15</i></li>
+        <p></p>
+        <li><i class=" fa fa-calendar" aria-hidden="true"> Monday, March 12th - 7 p.m. Night of Prayer and Adoration (Talk by the friars). Snacks and refreshments to follow </i></li>
+        <p></p><li><i class=" fa fa-calendar" aria-hidden="true"> Tuesday, March 13th - 7 p.m. Night of Reconciliation (Talk by friars). We will have a soup supper from 5 p.m. to 6:45 p.m. </i></li>
+        <p></p><li><i class=" fa fa-calendar" aria-hidden="true"> Wednesday, March 14th - 7 p.m. Night of healing and prayer (Talk by friars). Snacks and refreshments to follow </i></li>
+        <p></p><li><i class=" fa fa-calendar" aria-hidden="true"> Thursday, March 15th - 7 p.m. Parish Mission Mass Followed by a Guinness toast and refreshments in honor ef St. Patrick </i></li>
+
+
+
+      </ul>
+
+    </div>
+  </div>
+</div>
+<!-- end of Panel -->

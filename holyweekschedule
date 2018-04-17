@@ -1,0 +1,37 @@
+<section class="bg-black" id="section-4">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-12">
+                      <h1 class="section-heading text-center">Holy Week Schedule</h1>
+                      <hr/>
+                  </div>
+                  <div class="col-sm-12 text-center wow fadeInRight">
+                      <h3 style="padding-top:30px;">Holy Thursday, March 29th</h3>
+                      <ul style="list-style-type:none;padding-left:0;">
+                          <li>2:00PM: Prayer Service with foot washing at local nursing home</li>
+                          <li>7:00PM: Mass of the Lord's Supper</li>
+                          <li>After Mass: Adoration until Midnight</li>
+                      </ul>
+                      <h3 style="padding-top:30px;">Good Friday, March 30th</h3>
+                      <ul style="list-style-type:none;padding-left:0;">
+                          <li>3:00PM: Liturgy of the Lord; Passion with veneration of the Cross</li>
+                          <li>7:00PM: Solemn Stations of the Cross</li>
+                      </ul>
+                      <h3 style="padding-top:30px;">Holy Saturday, March 31st</h3>
+                      <ul style="list-style-type:none;padding-left:0;">
+                          <li>7:00PM: Easter Vigil</li>
+                      </ul>
+                      <h3 style="padding-top:30px;">Easter Sundary, April 1st</h3>
+                      <ul style="list-style-type:none;padding-left:0;">
+                          <li>7:30AM, 9:00AM, 10:30AM, 12:00PM: English Masses</li>
+                          <li>1:30PM: Spanish Mass</li>
+                      </ul>
+                  </div>
+
+              </div>
+
+
+
+          </div>
+       </section>
+       <!-- end of section-3 -->
