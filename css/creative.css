@@ -765,6 +765,20 @@ body {
     -o-background-size: cover;
 }
 
+#section-4 {
+    min-height: 350px;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    width: 100%;
+    background: url(../img/events/holyweek.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
 #aboutus {
     min-height: 50%;
     min-width: 100%;
